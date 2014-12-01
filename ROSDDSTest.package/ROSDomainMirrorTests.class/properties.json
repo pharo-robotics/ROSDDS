@@ -1,0 +1,14 @@
+{
+	"category" : "ROSDDSTest-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ROSDomainMirrorTests",
+	"pools" : [
+		 ],
+	"super" : "ROSDomainMirrorBasedTests",
+	"type" : "normal" }

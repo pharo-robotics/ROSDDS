@@ -1,0 +1,14 @@
+{
+	"category" : "ROSDDSTest-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rosout" ],
+	"name" : "ROSTopicTests",
+	"pools" : [
+		 ],
+	"super" : "ROSDomainBasedTests",
+	"type" : "normal" }

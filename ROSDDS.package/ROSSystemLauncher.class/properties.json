@@ -1,0 +1,17 @@
+{
+	"category" : "ROSDDS-Commandline",
+	"classinstvars" : [
+		"instance",
+		"distro" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"masterProcess",
+		"turtleProcess",
+		"gmappingProcess" ],
+	"name" : "ROSSystemLauncher",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

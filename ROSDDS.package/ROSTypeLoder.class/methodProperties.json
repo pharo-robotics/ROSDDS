@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"commandBased" : "SantiagoBragagnolo 11/12/2014 13:44" },
+	"instance" : {
+		"initialize" : "SantiagoBragagnolo 11/13/2014 22:25",
+		"loadTypeDefinition:ifAbsent:" : "SantiagoBragagnolo 11/13/2014 22:27",
+		"typeDefinition:ifAbsent:" : "SantiagoBragagnolo 11/13/2014 22:27" } }

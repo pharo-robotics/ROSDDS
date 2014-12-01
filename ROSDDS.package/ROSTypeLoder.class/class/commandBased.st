@@ -1,0 +1,3 @@
+constructor
+commandBased
+	^ ROSCommandTypeLoader new.

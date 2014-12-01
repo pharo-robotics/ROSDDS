@@ -1,0 +1,14 @@
+{
+	"category" : "ROSDDS-Typeloader",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 9/19/2014 21:07",
+	"instvars" : [
+		"builtinTypes" ],
+	"name" : "ROSTypeLoder",
+	"pools" : [
+		 ],
+	"super" : "MDDSTypeLoader",
+	"type" : "normal" }

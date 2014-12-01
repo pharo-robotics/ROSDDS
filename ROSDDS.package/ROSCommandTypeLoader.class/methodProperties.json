@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"browseAll" : "SantiagoBragagnolo 11/23/2014 19:59",
+		"loadTypeDefinition:ifAbsent:" : "SantiagoBragagnolo 11/13/2014 22:29",
+		"loadTypeDefinitionNamed:definedFromString:" : "SantiagoBragagnolo 11/14/2014 14:36",
+		"parseConstantRosLine:" : "SantiagoBragagnolo 10/20/2014 22:01",
+		"parseFieldRosLine:" : "SantiagoBragagnolo 10/20/2014 22:01",
+		"parseItemRosLine:into:" : "SantiagoBragagnolo 10/20/2014 22:01",
+		"parseRosLine:" : "SantiagoBragagnolo 10/20/2014 22:02",
+		"parseType:" : "SantiagoBragagnolo 11/26/2014 12:13",
+		"plainTypeDefinitionFor:" : "SantiagoBragagnolo 11/18/2014 16:09",
+		"typeNamed:for:" : "SantiagoBragagnolo 10/20/2014 22:02" } }

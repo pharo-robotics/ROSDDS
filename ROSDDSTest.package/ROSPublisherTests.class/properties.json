@@ -1,0 +1,16 @@
+{
+	"category" : "ROSDDSTest-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"publisher",
+		"topic",
+		"participant" ],
+	"name" : "ROSPublisherTests",
+	"pools" : [
+		 ],
+	"super" : "ROSDomainBasedTests",
+	"type" : "normal" }

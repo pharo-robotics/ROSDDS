@@ -1,0 +1,14 @@
+{
+	"category" : "ROSDDS-Server-Domain",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 11/17/2014 17:04",
+	"instvars" : [
+		 ],
+	"name" : "ROSDomainDescriptorServer",
+	"pools" : [
+		 ],
+	"super" : "DDSDomainDescriptorXMLRPCServer",
+	"type" : "normal" }

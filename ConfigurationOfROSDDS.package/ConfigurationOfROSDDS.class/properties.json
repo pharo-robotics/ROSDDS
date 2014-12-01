@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfROSDDS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfROSDDS",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,17 @@
+{
+	"category" : "ROSDDSTest-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"topic",
+		"subscriber",
+		"subscription",
+		"participant" ],
+	"name" : "ROSProtocolLookupTests",
+	"pools" : [
+		 ],
+	"super" : "ROSDomainBasedTests",
+	"type" : "normal" }
