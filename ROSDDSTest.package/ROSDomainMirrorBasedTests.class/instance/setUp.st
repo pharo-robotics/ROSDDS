@@ -1,3 +1,5 @@
 as yet unclassified
 setUp
-	domainMirror := self createRosMirror.
+	super setUp.
+	domain := self createRosDomain.
+	domainMirror := domain mirror

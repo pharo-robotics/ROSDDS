@@ -5,8 +5,7 @@ tearDown
 	XMLRPCService stopAll.
 	TKTRunner allSubInstances do: #cancel.
 	MDDSPublication allInstances do: #stopPublishing.
-	DDSPublicationServer allInstances do: #stop.
-	DDSParticipantServer allInstances do: #unserve.
+	DDSParticipantProtocolServer allInstances do: #stop.
 	MDDSReadingNetworkConnection allInstances do: #destroy.
 	Socket allInstances do: #destroy.
 	MDDSEntity allSubInstances do: [ :e | e domain: nil ] ]
