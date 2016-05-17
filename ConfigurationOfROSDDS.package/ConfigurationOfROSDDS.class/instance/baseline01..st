@@ -8,7 +8,8 @@ baseline01: spec
 		spec project: 'SimpleDDS' with: [
 				spec
 					className: #ConfigurationOfSimpleDDS;
-					versionString: #'stable';
+					versionString: #bleedingEdge;
+					loads: #('default' 'server-extention');				    
 					repository: 'http://smalltalkhub.com/mc/sbragagnolo/SimpleDDS/main/' ].
 		spec 
 			package: #ROSDDS with: [
