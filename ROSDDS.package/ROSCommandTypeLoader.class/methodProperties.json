@@ -3,7 +3,8 @@
 		 },
 	"instance" : {
 		"browseAll" : "SantiagoBragagnolo 11/23/2014 19:59",
-		"loadTypeDefinition:ifAbsent:" : "SantiagoBragagnolo 11/13/2014 22:29",
+		"loadServiceTypeDefinition:ifAbsent:" : "SantiagoBragagnolo 9/7/2015 11:39",
+		"loadTypeDefinition:ifAbsent:" : "SantiagoBragagnolo 4/27/2015 11:26",
 		"loadTypeDefinitionNamed:definedFromString:" : "SantiagoBragagnolo 11/14/2014 14:36",
 		"parseConstantRosLine:" : "SantiagoBragagnolo 10/20/2014 22:01",
 		"parseFieldRosLine:" : "SantiagoBragagnolo 10/20/2014 22:01",
@@ -11,4 +12,5 @@
 		"parseRosLine:" : "SantiagoBragagnolo 10/20/2014 22:02",
 		"parseType:" : "SantiagoBragagnolo 11/26/2014 12:13",
 		"plainTypeDefinitionFor:" : "SantiagoBragagnolo 11/18/2014 16:09",
-		"typeNamed:for:" : "SantiagoBragagnolo 10/20/2014 22:02" } }
+		"typeDefinitionForText:" : "SantiagoBragagnolo 8/26/2015 12:10",
+		"typeNamed:for:" : "SantiagoBragagnolo 8/26/2015 12:09" } }

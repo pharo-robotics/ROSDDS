@@ -1,5 +1,5 @@
-initialization
-typeDefinition: aTypeId ifAbsent: aBlock
+as yet unclassified
+serviceTypeDefinition: aTypeId ifAbsent: aBlock 
 	| type |
 	" A type may be: 
 	1- built in type 
@@ -18,7 +18,7 @@ typeDefinition: aTypeId ifAbsent: aBlock
 	4- If there is nothing about, we try to load it from the system
 	"
 	type := self
-		loadTypeDefinition: aTypeId
+		loadServiceTypeDefinition: aTypeId
 		ifAbsent: [ 
 			undefinedTypes add: aTypeId.
 			^ aBlock value ].

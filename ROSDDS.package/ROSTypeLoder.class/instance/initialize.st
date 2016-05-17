@@ -2,6 +2,7 @@ initialization
 initialize
 
 	super initialize.
+	undefinedTypes := Set new.
 	builtinTypes := Dictionary new.
 	
 	builtinTypes at: 'byte' put: (MDDSBasicTypeDefinition for:  MDDSInt8Type new).
