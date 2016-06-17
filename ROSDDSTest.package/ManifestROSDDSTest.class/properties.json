@@ -1,0 +1,14 @@
+{
+	"category" : "ROSDDSTest",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ManifestROSDDSTest",
+	"pools" : [
+		 ],
+	"super" : "PackageManifest",
+	"type" : "normal" }
