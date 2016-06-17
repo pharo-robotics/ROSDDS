@@ -1,4 +1,4 @@
-initialization
+abstract
 typeDefinition: aTypeId ifAbsent: aBlock
 	| type |
 	" A type may be: 

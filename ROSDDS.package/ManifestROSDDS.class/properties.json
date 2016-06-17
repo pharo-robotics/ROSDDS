@@ -1,15 +1,14 @@
 {
-	"category" : "ROSDDS-Commandline",
+	"category" : "ROSDDS",
 	"classinstvars" : [
-		"instance",
-		"distro" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
-	"name" : "ROSSystemLauncher",
+	"name" : "ManifestROSDDS",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PackageManifest",
 	"type" : "normal" }

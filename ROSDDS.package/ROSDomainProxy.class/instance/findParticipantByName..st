@@ -1,4 +1,4 @@
-as yet unclassified
+delegate
 findParticipantByName: aName
 | uri |
 	uri := proxy lookupNode: aName with: '/NotAnActualID'.

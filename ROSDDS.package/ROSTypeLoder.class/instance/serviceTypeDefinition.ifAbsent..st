@@ -1,4 +1,4 @@
-as yet unclassified
+type management
 serviceTypeDefinition: aTypeId ifAbsent: aBlock 
 	| type |
 	" A type may be: 

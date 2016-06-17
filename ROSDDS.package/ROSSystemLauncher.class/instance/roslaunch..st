@@ -2,7 +2,7 @@ launching
 roslaunch: aConfigurationFile
 	| roslaunch |
 	roslaunch := ExternalUnixOSProcess
-		forkAndExec: (ROSSystemLauncher path: 'roslaunch')
+		forkAndExec: (self class path: 'roslaunch')
 		arguments: {aConfigurationFile}
 		environment: nil
 		descriptors:

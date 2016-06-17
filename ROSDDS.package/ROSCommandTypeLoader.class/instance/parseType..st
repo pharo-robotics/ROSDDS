@@ -1,4 +1,4 @@
-loading
+parsing
 parseType: aTypeToken
 	| openBraket closeBraket innerType |
 	"

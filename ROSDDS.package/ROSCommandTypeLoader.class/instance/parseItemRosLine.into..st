@@ -1,4 +1,4 @@
-loading
+parsing
 parseItemRosLine: aLine into: aClass
 	| fieldType fieldName |
 	fieldType := self parseType: (($  split: aLine) at: 1).

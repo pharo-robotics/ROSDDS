@@ -2,5 +2,4 @@
 	"class" : {
 		"onROS:" : "SantiagoBragagnolo 11/19/2014 18:42" },
 	"instance" : {
-		"findServiceByName:" : "SantiagoBragagnolo 2/11/2015 14:07",
-		"findServiceByName:ifFound:ifNone:" : "SantiagoBragagnolo 8/26/2015 14:01" } }
+		 } }

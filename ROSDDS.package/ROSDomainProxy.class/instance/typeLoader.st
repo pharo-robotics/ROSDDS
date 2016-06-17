@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 typeLoader
 	^ typeLoader ifNil: [ typeLoader := ROSTypeLoder commandBased ]

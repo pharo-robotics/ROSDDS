@@ -1,4 +1,4 @@
-loading
+abstract
 loadTypeDefinitionNamed: aName definedFromString: aStringDefinition
 	| firstLevel type |
 	firstLevel := (Character lf split: aStringDefinition) select: [ :str | (str beginsWith: ' ') not & (str size > 3) ].

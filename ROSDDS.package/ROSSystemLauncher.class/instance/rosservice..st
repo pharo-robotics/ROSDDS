@@ -2,7 +2,7 @@ launching
 rosservice: anArrayOfArguments
 	| process |
 	process := ExternalUnixOSProcess
-		forkAndExec: (ROSSystemLauncher path: 'rosservice')
+		forkAndExec: (self class path: 'rosservice')
 		arguments: anArrayOfArguments
 		environment: nil
 		descriptors:

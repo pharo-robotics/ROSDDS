@@ -1,4 +1,4 @@
-loading
+parsing
 parseConstantRosLine: aLine
 	| typeLine |
 	typeLine := $= split: aLine.

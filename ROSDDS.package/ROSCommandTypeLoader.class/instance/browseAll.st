@@ -1,4 +1,4 @@
-loading
+all
 browseAll
 	^ (Character lf split: (ROSSystemLauncher instance rosMsg: 'list'))
 		inject: Dictionary new
