@@ -4,5 +4,5 @@ rosSrv: aCommand
 	future := [ :spec | 
 	spec
 		command: 'rossrv';
-		arguments: {aCommand} ] asOSTask future.
+		arguments: {aCommand asString} ] asOSTask future.
 	^ future synchronizeTimeout: 5 seconds

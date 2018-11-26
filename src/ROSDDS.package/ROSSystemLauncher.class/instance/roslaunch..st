@@ -4,5 +4,5 @@ roslaunch: aConfigurationFile
 	future := [ :spec | 
 	spec
 		command: 'roslaunch';
-		arguments: {aConfigurationFile} ] asOSTask future.
+		arguments: {aConfigurationFile asString} ] asOSTask future.
 	^ future

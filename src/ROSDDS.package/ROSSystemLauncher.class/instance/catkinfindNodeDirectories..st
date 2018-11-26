@@ -5,4 +5,4 @@ catkinfindNodeDirectories: aPackageName
 			{'--without-underlays'.
 			'--libexec'.
 			'--share'.
-			aPackageName}
+			aPackageName asString}

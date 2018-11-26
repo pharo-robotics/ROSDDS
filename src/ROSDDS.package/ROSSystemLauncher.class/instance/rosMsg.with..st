@@ -5,6 +5,6 @@ rosMsg: aCommand with: aTypeId
 	spec
 		command: 'rosmsg';
 		arguments:
-			{aCommand.
-			aTypeId} ] asOSTask future.
+			{aCommand asString.
+			aTypeId asString} ] asOSTask future.
 	^ future synchronizeTimeout: 5 seconds
