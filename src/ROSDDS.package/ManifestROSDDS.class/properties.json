@@ -1,14 +1,11 @@
 {
-	"category" : "ROSDDS",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
-	"name" : "ManifestROSDDS",
-	"pools" : [
-		 ],
 	"super" : "PackageManifest",
-	"type" : "normal" }
+	"category" : "ROSDDS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ManifestROSDDS",
+	"type" : "normal"
+}

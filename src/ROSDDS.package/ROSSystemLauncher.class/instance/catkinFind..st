@@ -1,3 +1,8 @@
 as yet unclassified
 catkinFind: anArray
-	^ self catkinFind: anArray tmpFile: anArray hash asString.
+	| future |
+	future := [ :spec | 
+	spec
+		command: 'catkin_find';
+		arguments: anArray ] asOSTask future.
+	^ future synchronizeTimeout: 5 seconds

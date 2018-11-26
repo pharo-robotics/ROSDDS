@@ -1,7 +1,10 @@
 types
 rosSrv: aCommand with: aTypeId
-	^ self
-		rosSrv:
+	| future |
+	future := [ :spec | 
+	spec
+		command: 'rossrv';
+		arguments:
 			{aCommand.
-			aTypeId}
-		tmpFile: (aTypeId copyReplaceAll: '/' with: '_')
+			aTypeId} ] asOSTask future.
+	^ future synchronizeTimeout: 5 seconds

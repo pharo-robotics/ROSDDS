@@ -1,14 +1,11 @@
 {
-	"category" : "ROSDDS-Typeloader",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SantiagoBragagnolo 9/19/2014 21:09",
-	"instvars" : [
-		 ],
-	"name" : "ROSCommandTypeLoader",
-	"pools" : [
-		 ],
 	"super" : "ROSTypeLoder",
-	"type" : "normal" }
+	"category" : "ROSDDS-Typeloader",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ROSCommandTypeLoader",
+	"type" : "normal"
+}

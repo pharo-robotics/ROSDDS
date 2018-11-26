@@ -1,13 +1,8 @@
 launching
 roslaunch: aConfigurationFile
-	| roslaunch |
-	roslaunch := ExternalUnixOSProcess
-		forkAndExec: (self class path: 'roslaunch')
-		arguments: {aConfigurationFile}
-		environment: nil
-		descriptors:
-			{(FileStream stdin).
-			(FileStream stdout).
-			(FileStream stderr)}.
-	roslaunch spinForRos: 50.
-	^ roslaunch
+	| future |
+	future := [ :spec | 
+	spec
+		command: 'roslaunch';
+		arguments: {aConfigurationFile} ] asOSTask future.
+	^ future

@@ -1,15 +1,14 @@
 {
+	"commentStamp" : "<historical>",
+	"super" : "Object",
 	"category" : "ROSDDS-Commandline",
 	"classinstvars" : [
 		"instance",
-		"distro" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
+		"distro"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "ROSSystemLauncher",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

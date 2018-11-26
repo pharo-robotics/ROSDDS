@@ -1,14 +1,11 @@
 {
-	"category" : "ROSDDS-Protocolo",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SantiagoBragagnolo 11/13/2014 22:56",
-	"instvars" : [
-		 ],
-	"name" : "ROSTCPProtocol",
-	"pools" : [
-		 ],
 	"super" : "DDSTCPProtocol",
-	"type" : "normal" }
+	"category" : "ROSDDS-Protocolo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ROSTCPProtocol",
+	"type" : "normal"
+}

@@ -1,14 +1,11 @@
 {
-	"category" : "ROSDDS-Proxy",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SantiagoBragagnolo 11/13/2014 22:59",
-	"instvars" : [
-		 ],
-	"name" : "ROSDomainProxy",
-	"pools" : [
-		 ],
 	"super" : "DDSDomainProxy",
-	"type" : "normal" }
+	"category" : "ROSDDS-Proxy",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ROSDomainProxy",
+	"type" : "normal"
+}

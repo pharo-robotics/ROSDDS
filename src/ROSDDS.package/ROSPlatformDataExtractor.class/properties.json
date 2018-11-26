@@ -1,14 +1,11 @@
 {
-	"category" : "ROSDDS-Commandline",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SantiagoBragagnolo 2/26/2015 23:26",
-	"instvars" : [
-		 ],
-	"name" : "ROSPlatformDataExtractor",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "ROSDDS-Commandline",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ROSPlatformDataExtractor",
+	"type" : "normal"
+}
