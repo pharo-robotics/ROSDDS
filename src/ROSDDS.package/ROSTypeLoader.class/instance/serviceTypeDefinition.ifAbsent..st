@@ -20,7 +20,7 @@ serviceTypeDefinition: aTypeId ifAbsent: aBlock
 	type := self
 		loadServiceTypeDefinition: aTypeId
 		ifAbsent: [ 
-			undefinedTypes add: aTypeId.
+			self registerUndefinedType: aTypeId. 
 			^ aBlock value ].
 	registry at: aTypeId put: type.
 	^ type

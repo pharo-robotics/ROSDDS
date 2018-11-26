@@ -9,6 +9,6 @@
 		"builtinTypes",
 		"undefinedTypes"
 	],
-	"name" : "ROSTypeLoder",
+	"name" : "ROSTypeLoader",
 	"type" : "normal"
 }

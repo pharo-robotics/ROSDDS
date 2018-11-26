@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "SantiagoBragagnolo 9/19/2014 21:09",
-	"super" : "ROSTypeLoder",
+	"super" : "ROSTypeLoader",
 	"category" : "ROSDDS-Typeloader",
 	"classinstvars" : [ ],
 	"pools" : [ ],

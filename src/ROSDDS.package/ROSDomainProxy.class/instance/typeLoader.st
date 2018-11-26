@@ -1,3 +1,3 @@
 accessing
 typeLoader
-	^ typeLoader ifNil: [ typeLoader := ROSTypeLoder commandBased ]
+	^ typeLoader ifNil: [ typeLoader := ROSTypeLoader commandBased ]

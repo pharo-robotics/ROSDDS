@@ -19,8 +19,7 @@ typeDefinition: aTypeId ifAbsent: aBlock
 	"
 	type := self
 		loadTypeDefinition: aTypeId
-		ifAbsent: [ 
-			undefinedTypes add: aTypeId.
+		ifAbsent: [ self registerUndefinedType: aTypeId.
 			^ aBlock value ].
 	registry at: aTypeId put: type.
 	^ type
