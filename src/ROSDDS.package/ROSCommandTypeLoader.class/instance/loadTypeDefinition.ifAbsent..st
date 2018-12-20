@@ -1,8 +1,8 @@
 loading
 loadTypeDefinition: aTypeId ifAbsent: aBlock
 	| firstLevel type val isAbsent |
-	[ [ val := ROSSystemLauncher instance rosMsgShow: aTypeId.
-	isAbsent := false ] ]
+	[  val := ROSSystemLauncher instance rosMsgShow: aTypeId.
+	isAbsent := false ] 
 		on: Error
 		do: [ isAbsent := true ].
 	^ isAbsent
