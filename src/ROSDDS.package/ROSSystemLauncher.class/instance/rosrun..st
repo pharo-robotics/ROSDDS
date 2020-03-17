@@ -1,7 +1,7 @@
 launching
 rosrun: anArrayOfArguments
 	^ self
-		resolveTask: [ :spec | 
-			spec
-				command: 'rosrun';
-				arguments: anArrayOfArguments ]
+		resolveTask:
+			(#rosrun command
+				arguments: anArrayOfArguments;
+				yourself)

@@ -1,7 +1,7 @@
 launching
 rosservice: anArrayOfArguments
 	^ self
-		resolveTask: [ :spec | 
-			spec
-				command: 'rosservice';
-				arguments: anArrayOfArguments ]
+		resolveTask:
+			(#rosservice command
+				arguments: anArrayOfArguments;
+				yourself)

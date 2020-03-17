@@ -1,8 +1,8 @@
 launching
 roslaunchForTests: aContent
 	| file |
-	file := StandardFileStream forceNewFileNamed: '/tmp/content-empty-test.launch'.
+	file := '/tmp/content-empty-test.launch' asFileReference writeStream.
 	file nextPutAll: aContent.
 	file flush.
 	file close.
-	^ (self roslaunch: '/tmp/content-empty-test.launch') 
+	^ self roslaunch: '/tmp/content-empty-test.launch'

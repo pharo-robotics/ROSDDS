@@ -1,9 +1,9 @@
 types
 rosMsg: aCommand with: aTypeId
 	^ self
-		resolveTask: [ :spec | 
-			spec
-				command: 'rosmsg';
+		resolveTask:
+			(#rosmsg command
 				arguments:
 					{aCommand asString.
-					aTypeId asString} ]
+					aTypeId asString};
+				yourself)

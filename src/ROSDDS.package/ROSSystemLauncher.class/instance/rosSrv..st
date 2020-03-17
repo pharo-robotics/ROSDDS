@@ -1,7 +1,7 @@
 types
 rosSrv: aCommand
 	^ self
-		resolveTask: [ :spec | 
-			spec
-				command: 'rossrv';
-				arguments: {aCommand asString} ]
+		resolveTask:
+			(#rossrv command
+				arguments: {aCommand asString};
+				yourself)

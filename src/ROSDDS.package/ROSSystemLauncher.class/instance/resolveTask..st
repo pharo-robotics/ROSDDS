@@ -1,5 +1,6 @@
 types
-resolveTask: aBlock
+resolveTask: aCommand
 	| future |
-	future := aBlock asOSTask future: self runner.
-	^ future synchronizeTimeout: 5 seconds 
+	aCommand redirectStdoutAsResult.
+	future := aCommand future: self runner.
+	^ future synchronizeTimeout: 5 seconds
