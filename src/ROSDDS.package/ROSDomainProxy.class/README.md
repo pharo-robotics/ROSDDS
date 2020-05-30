@@ -1,1 +1,0 @@
-Since the Simple DDS implementation is based on the ROS implementation, but without the structural installation, the type loader is completely different. And that is the main difference.

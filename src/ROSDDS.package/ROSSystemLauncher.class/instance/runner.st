@@ -1,3 +1,0 @@
-types
-runner
-	^ TKTNewProcessTaskRunner new

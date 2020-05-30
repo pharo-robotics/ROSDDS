@@ -1,1 +1,0 @@
-Platform reification. Needed for grabbing some information from the operative system. The default implementation is for UBUNTU.

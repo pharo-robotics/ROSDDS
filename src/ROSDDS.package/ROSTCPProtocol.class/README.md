@@ -1,1 +1,0 @@
-Since the ROS protocol is the base of the simple DDS protocol, the implementation by default is the same, but it changes the name
