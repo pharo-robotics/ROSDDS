@@ -1,7 +1,7 @@
 Class {
 	#name : #BaselineOfROSDDS,
 	#superclass : #BaselineOf,
-	#category : 'BaselineOfROSDDS'
+	#category : #BaselineOfROSDDS
 }
 
 { #category : #'development support' }
@@ -107,9 +107,9 @@ BaselineOfROSDDS >> baseline: spec [
 	<baseline>
 	spec
 		for: #common
-		do: [ spec baseline: 'TaskItShell' with: [ spec repository: 'github://sbragagnolo/taskit' ].
-			spec baseline: 'SimpleDDS' with: [ spec repository: 'github://sbragagnolo/SimpleDDS/src' ].
-			spec baseline: 'SimpleDDSServer' with: [ spec repository: 'github://sbragagnolo/SimpleDDS/src' ].
+		do: [ spec baseline: 'TaskItShell' with: [ spec repository: 'github://pharo-contributions/taskit-shell' ].
+			spec baseline: 'SimpleDDS' with: [ spec repository: 'github://pharo-robotics/SimpleDDS/src' ].
+			spec baseline: 'SimpleDDSServer' with: [ spec repository: 'github://pharo-robotics/SimpleDDS/src' ].
 			spec
 				package: #ROSDDS with: [ spec requires: #('SimpleDDS' 'SimpleDDSServer' 'TaskItShell') ];
 				package: #ROSDDSTest with: [ spec requires: #(#ROSDDS) ].
